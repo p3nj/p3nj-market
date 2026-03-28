@@ -7,7 +7,7 @@
   "plugins": [
     {
       "name": "datadog-log-analysis",
-      "source": "./plugins/datadog",
+      "source": "./plugins/datadog-log-analysis",
       "description": "Skills for analysing Datadog logs for Prismatic integrations. Requires the Datadog Connector extension (.mcpb) for MCP access.",
       "homepage": "https://github.com/p3nj/p3nj-market",
       "download": "https://github.com/p3nj/p3nj-market/releases/download/v2.0.1/datadog-log-analyst.dxt"
