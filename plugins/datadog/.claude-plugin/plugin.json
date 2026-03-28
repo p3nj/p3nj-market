@@ -1,19 +1,11 @@
 {
-  "name": "obzervr-datadog",
-  "version": "1.0.0",
-  "description": "Let Claude query your Datadog logs, metrics, monitors, and events.",
+  "name": "datadog-log-analyst",
+  "version": "2.0.1",
+  "description": "Query and analyse Datadog logs with full attribute passthrough and streaming accumulator for million-log datasets. Includes a Datadog MCP server and a modular Prismatic-specific analysis skill suite.",
   "author": {
-    "name": "Obzervr",
-    "url": "https://www.obzervr.com"
+    "name": "Benjamin Wang"
   },
-  "homepage": "https://www.obzervr.com",
-  "license": "MIT",
-  "keywords": [
-    "monitoring",
-    "observability",
-    "logs",
-    "metrics",
-    "datadog"
-  ],
+  "homepage": "https://github.com/p3nj/p3nj-market",
+  "keywords": ["datadog", "logs", "prismatic", "monitoring", "observability", "sap", "integration"],
   "mcpServers": "./.mcp.json"
 }
