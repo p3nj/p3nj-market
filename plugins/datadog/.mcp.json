@@ -4,8 +4,8 @@
       "command": "bash",
       "args": ["-c", "cd ${CLAUDE_PLUGIN_ROOT} && npm install --silent 2>/dev/null && node servers/dd-server.mjs"],
       "env": {
-        "DD_API_KEY": "${user_config.api_key}",
-        "DD_APP_KEY": "${user_config.app_key}",
+        "DD_API_KEY": "${CLAUDE_PLUGIN_OPTION_API_KEY}",
+        "DD_APP_KEY": "${CLAUDE_PLUGIN_OPTION_APP_KEY}",
         "DD_SITE": "${user_config.site}"
       }
     }
