@@ -1,0 +1,9 @@
+{
+  "name": "mcp-connector-builder",
+  "version": "1.0.0",
+  "description": "Skill for building and packaging custom MCP servers as Claude Desktop Extension bundles (.mcpb). Guides you through scaffolding, manifest.json spec 0.3, mcpb CLI, and team distribution.",
+  "author": {
+    "name": "Benjamin Wang"
+  },
+  "keywords": ["mcp", "connector", "mcpb", "dxt", "extension", "packaging", "claude-desktop"]
+}

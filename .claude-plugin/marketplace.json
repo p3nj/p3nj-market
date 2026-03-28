@@ -11,6 +11,12 @@
       "description": "Let Claude query your Datadog logs, metrics, monitors, and events.",
       "homepage": "https://github.com/p3nj/p3nj-market",
       "download": "https://github.com/p3nj/p3nj-market/releases/download/v2.0.1/datadog-log-analyst.dxt"
+    },
+    {
+      "name": "mcp-connector-builder",
+      "source": "./plugins/mcp-connector-builder",
+      "description": "Skill for building and packaging custom MCP servers as Claude Desktop Extension bundles (.mcpb). Covers project scaffolding, manifest.json spec 0.3, mcpb CLI, and team distribution options.",
+      "homepage": "https://github.com/p3nj/p3nj-market"
     }
   ]
 }
