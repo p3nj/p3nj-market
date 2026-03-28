@@ -1,0 +1,21 @@
+{
+  "name": "p3nj-plugins",
+  "owner": {
+    "name": "Benjamin Wang",
+    "email": ""
+  },
+  "plugins": [
+    {
+      "name": "datadog",
+      "source": ".",
+      "description": "Let Claude query your Datadog logs, metrics, monitors, and events.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Benjamin Wang"
+      },
+      "homepage": "https://github.com/p3nj/claude-datadog-plugin",
+      "repository": "https://github.com/p3nj/claude-datadog-plugin",
+      "license": "MIT"
+    }
+  ]
+}

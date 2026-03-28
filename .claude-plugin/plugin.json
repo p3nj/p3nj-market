@@ -1,0 +1,19 @@
+{
+  "name": "obzervr-datadog",
+  "version": "1.0.0",
+  "description": "Let Claude query your Datadog logs, metrics, monitors, and events.",
+  "author": {
+    "name": "Obzervr",
+    "url": "https://www.obzervr.com"
+  },
+  "homepage": "https://www.obzervr.com",
+  "license": "MIT",
+  "keywords": [
+    "monitoring",
+    "observability",
+    "logs",
+    "metrics",
+    "datadog"
+  ],
+  "mcpServers": "./.mcp.json"
+}

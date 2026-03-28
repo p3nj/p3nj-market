@@ -1,0 +1,51 @@
+{
+  "dxt_version": "0.1",
+  "name": "datadog",
+  "version": "1.1.0",
+  "description": "Let Claude query your Datadog logs, metrics, monitors, and events.",
+  "author": {
+    "name": "Benjamin Wang",
+    "url": "https://github.com/p3nj"
+  },
+  "icon": "icon.png",
+  "homepage": "https://www.obzervr.com",
+  "license": "MIT",
+  "keywords": [
+    "monitoring",
+    "observability",
+    "logs",
+    "metrics",
+    "datadog"
+  ],
+  "server": {
+    "type": "node",
+    "entry_point": "dist/index.js",
+    "mcp_config": {
+      "command": "node",
+      "args": ["${__dirname}/dist/index.js"],
+      "env": {
+        "DD_API_KEY": "${user_config.api_key}",
+        "DD_APP_KEY": "${user_config.app_key}",
+        "DD_SITE": "${user_config.site}"
+      }
+    }
+  },
+  "user_config": {
+    "api_key": {
+      "type": "string",
+      "title": "Datadog API Key",
+      "description": "Your Datadog API key"
+    },
+    "app_key": {
+      "type": "string",
+      "title": "Datadog Application Key",
+      "description": "Your Datadog application key"
+    },
+    "site": {
+      "type": "string",
+      "title": "Datadog Site",
+      "description": "Your Datadog site (e.g. datadoghq.com, datadoghq.eu)",
+      "default": "datadoghq.com"
+    }
+  }
+}
