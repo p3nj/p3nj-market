@@ -7,7 +7,7 @@
   "plugins": [
     {
       "name": "datadog",
-      "source": ".",
+      "source": "./plugins/datadog",
       "description": "Let Claude query your Datadog logs, metrics, monitors, and events.",
       "homepage": "https://github.com/p3nj/p3nj-market"
     }
