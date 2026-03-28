@@ -1,0 +1,13 @@
+{
+  "mcpServers": {
+    "datadog": {
+      "command": "bash",
+      "args": ["-c", "cd ${CLAUDE_PLUGIN_ROOT} && npm install --silent 2>/dev/null; node dist/index.js"],
+      "env": {
+        "DD_API_KEY": "${api_key}",
+        "DD_APP_KEY": "${app_key}",
+        "DD_SITE": "${site}"
+      }
+    }
+  }
+}
