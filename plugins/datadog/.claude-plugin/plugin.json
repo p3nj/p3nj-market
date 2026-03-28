@@ -7,5 +7,19 @@
   },
   "homepage": "https://github.com/p3nj/p3nj-market",
   "keywords": ["datadog", "logs", "prismatic", "monitoring", "observability", "sap", "integration"],
-  "mcpServers": "./.mcp.json"
+  "mcpServers": "./.mcp.json",
+  "userConfig": {
+    "api_key": {
+      "description": "Your Datadog API key",
+      "sensitive": true
+    },
+    "app_key": {
+      "description": "Your Datadog Application key",
+      "sensitive": true
+    },
+    "site": {
+      "description": "Your Datadog site (e.g. datadoghq.com, datadoghq.eu)",
+      "sensitive": false
+    }
+  }
 }

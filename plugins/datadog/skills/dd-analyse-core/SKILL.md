@@ -6,8 +6,6 @@ description: >
   pipeline and builds the final analysis object. Called internally by
   datadog-log-analysis — not triggered directly. Use this skill whenever processing
   Prismatic log data from accumulated summaries, regardless of integration type.
-metadata:
-  version: "12.0.0"
 ---
 
 ## Core Log Analysis — Build Analysis from Accumulated Summaries
