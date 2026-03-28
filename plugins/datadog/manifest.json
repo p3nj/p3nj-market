@@ -1,0 +1,47 @@
+{
+  "dxt_version": "0.3",
+  "name": "datadog-log-analyst",
+  "version": "2.0.1",
+  "description": "Query and analyse Datadog logs with full attribute passthrough and streaming accumulator for million-log datasets. Includes a Datadog MCP server and a modular Prismatic-specific analysis skill suite.",
+  "author": {
+    "name": "Benjamin Wang",
+    "url": "https://github.com/p3nj"
+  },
+  "icon": "icon.png",
+  "homepage": "https://github.com/p3nj/p3nj-market",
+  "license": "MIT",
+  "keywords": [
+    "datadog", "logs", "prismatic", "monitoring", "observability", "sap", "integration"
+  ],
+  "server": {
+    "type": "node",
+    "entry_point": "dist/index.js",
+    "mcp_config": {
+      "command": "node",
+      "args": ["${__dirname}/dist/index.js"],
+      "env": {
+        "DD_API_KEY": "${user_config.api_key}",
+        "DD_APP_KEY": "${user_config.app_key}",
+        "DD_SITE": "${user_config.site}"
+      }
+    }
+  },
+  "user_config": {
+    "api_key": {
+      "type": "string",
+      "title": "Datadog API Key",
+      "description": "Your Datadog API key"
+    },
+    "app_key": {
+      "type": "string",
+      "title": "Datadog Application Key",
+      "description": "Your Datadog application key"
+    },
+    "site": {
+      "type": "string",
+      "title": "Datadog Site",
+      "description": "Your Datadog site (e.g. datadoghq.com, datadoghq.eu)",
+      "default": "datadoghq.com"
+    }
+  }
+}

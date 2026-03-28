@@ -10,7 +10,7 @@
       "source": "./plugins/datadog",
       "description": "Let Claude query your Datadog logs, metrics, monitors, and events.",
       "homepage": "https://github.com/p3nj/p3nj-market",
-      "download": "https://github.com/p3nj/p3nj-market/releases/download/v2.0.1/datadog-log-analyst.plugin"
+      "download": "https://github.com/p3nj/p3nj-market/releases/download/v2.0.1/datadog-log-analyst.dxt"
     }
   ]
 }
