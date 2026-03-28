@@ -1,21 +1,15 @@
 {
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
   "name": "p3nj-plugins",
   "owner": {
-    "name": "Benjamin Wang",
-    "email": ""
+    "name": "Benjamin Wang"
   },
   "plugins": [
     {
       "name": "datadog",
-      "source": ".",
+      "source": "./plugins/datadog",
       "description": "Let Claude query your Datadog logs, metrics, monitors, and events.",
-      "version": "1.0.0",
-      "author": {
-        "name": "Benjamin Wang"
-      },
-      "homepage": "https://github.com/p3nj/claude-datadog-plugin",
-      "repository": "https://github.com/p3nj/claude-datadog-plugin",
-      "license": "MIT"
+      "homepage": "https://github.com/p3nj/claude-datadog-plugin"
     }
   ]
 }
