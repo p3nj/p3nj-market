@@ -6,6 +6,8 @@ description: >
   This skill is called internally by datadog-log-analysis and should not be triggered
   directly. Use when you need to fetch logs, monitors, events, or metrics from Datadog
   and store them safely for downstream processing.
+metadata:
+  version: "12.0.0"
 ---
 
 ## Datadog Fetch — Streaming Accumulator Pipeline

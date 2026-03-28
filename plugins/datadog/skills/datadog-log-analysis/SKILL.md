@@ -10,6 +10,8 @@ description: >
   Understands natural language — the client code can be embedded anywhere in the message.
   Also use this skill when the user asks about Datadog monitors, events, or metrics
   related to Prismatic or client environments.
+metadata:
+  version: "9.0.0"
 ---
 
 ## Datadog Prismatic Log Analysis — Orchestrator

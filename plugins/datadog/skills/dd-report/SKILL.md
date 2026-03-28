@@ -8,6 +8,8 @@ description: >
   whenever you need to format or re-deliver a previously completed analysis, or when the
   user says "send that to Slack", "put that in Notion", "DM me the results", or
   "write that up as a report".
+metadata:
+  version: "11.0.0"
 ---
 
 ## Report — Format & Deliver Analysis

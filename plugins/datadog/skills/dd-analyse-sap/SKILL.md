@@ -6,6 +6,8 @@ description: >
   extraction, and SAP connector tag parsing. Called internally by datadog-log-analysis
   ONLY when the integration type is SAP — never triggered directly and never run for
   AMT, Maximo, or generic clients.
+metadata:
+  version: "12.0.0"
 ---
 
 ## SAP Log Analysis — SAP-Specific Extensions
