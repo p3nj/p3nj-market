@@ -1,0 +1,19 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "p3nj-market",
+  "owner": {
+    "name": "Benjamin Wang"
+  },
+  "plugins": [
+    {
+      "name": "datadog-log-analyst",
+      "source": "./plugins/datadog-log-analysis",
+      "description": "Analyse Datadog logs for Prismatic integrations with streaming accumulator for million-log datasets. Includes skills for fetching, analysing (SAP, AMT, Maximo, generic), and reporting to chat, Slack, Notion, or DOCX. Requires the Datadog Connector extension for MCP access."
+    },
+    {
+      "name": "mcp-connector-builder",
+      "source": "./plugins/mcp-connector-builder",
+      "description": "Skill for building and packaging custom MCP servers as Claude Desktop Extension bundles (.mcpb). Guides you through scaffolding, manifest.json spec 0.3, mcpb CLI, and team distribution."
+    }
+  ]
+}
