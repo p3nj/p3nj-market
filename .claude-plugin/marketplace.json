@@ -14,6 +14,11 @@
       "name": "mcp-connector-builder",
       "source": "./plugins/mcp-connector-builder",
       "description": "Skill for building and packaging custom MCP servers as Claude Desktop Extension bundles (.mcpb). Guides you through scaffolding, manifest.json spec 0.3, mcpb CLI, and team distribution."
+    },
+    {
+      "name": "http-toolkit",
+      "source": "./plugins/http-toolkit",
+      "description": "Generic AI-driven HTTP toolkit. Two strictly separated skills — http-call (one request in, one response out, all params per-call, supports JSON/XML bodies and bearer/basic/api_key/OAuth2 auth) and api-test (orchestrator that chains http-call steps, captures values across calls, and asserts results). Zero npm deps, auto-loads .env from CLAUDE_PROJECT_DIR or CWD."
     }
   ]
 }

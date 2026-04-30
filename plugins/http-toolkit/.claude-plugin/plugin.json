@@ -1,0 +1,17 @@
+{
+  "name": "http-toolkit",
+  "version": "1.0.0",
+  "description": "Generic AI-driven HTTP toolkit. Single Node helper script + skills for one-off requests and multi-step automation tests. All parameters (URL, method, headers, body, auth) are passed per-call — nothing is locked to plugin config. Auto-loads .env from CLAUDE_PROJECT_DIR (cowork) or CWD (Claude Code).",
+  "author": { "name": "Benjamin Wang" },
+  "homepage": "https://www.obzervr.com",
+  "keywords": [
+    "http",
+    "api",
+    "rest",
+    "automation",
+    "testing",
+    "postman",
+    "oauth2"
+  ],
+  "skills": "./skills"
+}
